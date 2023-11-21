@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Outfit', sans-serif;
+}
+
+header{
+    color: rgba(0, 0, 0, 1);
+    width: 100%;
+    height: 15vh;
+    background-color: rgba(255, 198, 0, 0.91);  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+header > h1 {
+    margin-left: 12vh;   
+}
+
+header > h2{
+    margin-left: 12vh;
+}
+
+.title{
+    color: rgba(255, 198, 0, 0.91);
+    font-weight: 700;
+    font-size: 7vh;
+    line-height: 15vh;
+    text-align: center;
+    margin-top: 3vh;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.button-info{
+    color: rgba(109, 106, 106, 1);
+    margin: auto;
+    width: 50vh;
+    height: 3vh;
+    margin-top: 12px;
+    border-radius: 8px;
+    padding: 7px;
+    border-style: solid;
+}
+
+#button-cad{
+    background-color: rgba(255, 198, 0, 0.91);
+    margin-top: 25px;
+    color: black;
+    font-size: 1.1em;
+    font-weight: 600;
+    width: 52vh;
+    height: 42px;
+    border-style: none;
+}
+
+.forget-pass{
+    font-size: 1.5vh;
+    text-decoration: none;
+    color: rgba(0, 0, 0, 1);
+    margin-top: 4px;
+    text-align: center;
+    font-weight: 600;
+}
+
+.forget-pass:hover{
+    text-decoration: underline;
+}
+
+footer{
+    width: 100%;
+    height: 10vh;
+    color: rgba(99, 99, 99, 1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8px;
+    gap: 10px;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+.line {
+    margin-top: 60px;
+    font-size: 1.5vh;
+}
+
+.cards{
+    width: 50vh;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10px;
+}
+
+.card{
+    padding: 15px 45px;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card:hover{
+    scale: 1.1;
+    transition: 0.5s;
+}
+
+.create{
+    margin-top: 10px;
+    font-size: 1.5vh;
+}
+
+.create-acc{
+    text-decoration: none;
+    color: rgb(17, 57, 63);
+    font-weight: 600;
+}
+
+.create-acc:hover{
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 650px){
+    .button-info{
+        width: 40vh;
+    }
+    #button-cad{
+        width: 42vh;
+    }
+    header > h1{
+        font-size: 3.5vh;
+    }
+    header > h2{
+        font-size: 2vh;
+    }
+    .card{
+        width: 2.1vh;
+        height: 2.2vh;
+    }
+}
